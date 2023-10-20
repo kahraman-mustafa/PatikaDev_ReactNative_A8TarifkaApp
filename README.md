@@ -1,3 +1,37 @@
+# Meal API Needs
+## List All Categories
+List all meal categories
+www.themealdb.com/api/json/v1/1/categories.php
+
+List all Categories, Area, Ingredients
+www.themealdb.com/api/json/v1/1/list.php?c=list
+www.themealdb.com/api/json/v1/1/list.php?a=list
+www.themealdb.com/api/json/v1/1/list.php?i=list
+
+## List all meals in selected category
+Filter by Category
+www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+
+Filter by Area
+www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
+
+Filter by main ingredient
+www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
+
+## Show recepie of the selected meal
+Lookup full meal details by id
+www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+
+## Images
+Meal Thumbnail Images
+Add /preview to the end of the meal image URL
+www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview
+
+Ingredient Thumbnail Images
+www.themealdb.com/images/ingredients/Lime.png
+www.themealdb.com/images/ingredients/Lime-Small.png
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
