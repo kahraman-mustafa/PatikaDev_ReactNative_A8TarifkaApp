@@ -1,4 +1,45 @@
-# Meal API Needs
+# PatikaDev - React Native Kursu - Web API Ders Sonu Birlikte Yap Projesi
+Bu repo [Patika](www.patika.dev) React Native programımız kapsamında "React Native Kursu - Web API" Ders Sonu Kendin Yap Projesi için oluşturulan repodur. İçerisinde bir adet "A8TarifkaApp" isimli React Native uygulaması barındırmaktadır.
+
+## Kullanılan yapılar: 
+- LottiView ile loading/error animasyonu
+- Axios ile web apiden veri çekme, çözümleme
+- FlatList ve custom componenetler ile veri listeleme
+- Veri çekme işlemleri için custom hook olan useFetch kullanımı
+- FastImage kütüphanesi kullanımı (Image alternatifi, cache/hızlı render)
+- React Navigation, Stack Navigator ile navigasyon
+- Sayfa başlığı manipülasyonu
+- Custom color dosyası ile renk yönetimi
+- Hassas değişkenleri react-native-config kullanarak .env ile yönetme
+- Linking kullanımı; Youtube video url ile videoya yönlendirme
+- Meals sayfasında absolute positioning uygulaması
+
+## Installation
+Öncelikle projeyi clonelayın. 
+
+`git clone https://github.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp.git
+
+## Usage
+Projeyi klonladıktan sonra Visual Studio Code programında açınız.
+Linux için:
+```
+cd A8TarifkaApp
+npm install
+code .
+```
+![Proje Resmi-1](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_1.png)
+![Proje Resmi-2](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_2.png)
+![Proje Resmi-3](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_3.png)
+![Proje Resmi-4](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_4.png)
+![Proje Resmi-5](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_5.png)
+![Proje Resmi-6](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_6.png)
+![Proje Resmi-7](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_7.png)
+![Proje Resmi-8](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_8.png)
+![Proje Resmi-9](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_9.png)
+![Proje Resmi-10](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_10.png)
+![Proje Resmi-11](https://raw.githubusercontent.com/kahraman-mustafa/PatikaDev_ReactNative_A8TarifkaApp/master/A8TarifkaApp_11.png)
+
+# Meal API Usage Examples
 ## List All Categories
 List all meal categories
 www.themealdb.com/api/json/v1/1/categories.php
