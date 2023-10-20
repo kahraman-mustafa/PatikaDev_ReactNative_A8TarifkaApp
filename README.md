@@ -1,5 +1,7 @@
 # PatikaDev - React Native Kursu - Web API Ders Sonu Birlikte Yap Projesi
-Bu repo [Patika](www.patika.dev) React Native programımız kapsamında "React Native Kursu - Web API" Ders Sonu Kendin Yap Projesi için oluşturulan repodur. İçerisinde bir adet "A8TarifkaApp" isimli React Native uygulaması barındırmaktadır.
+Bu repo [Patika](www.patika.dev) React Native programımız kapsamında "React Native Kursu - Web API" Ders Sonu Kendin Yap Projesi için oluşturulan repodur. İçerisinde bir adet "A8TarifkaApp" isimli React Native uygulaması barındırmaktadır. 
+
+Proje yönergesindeki açıklamalara ilave olarak yemek detay sayfasında ingredientsler listelenmiştir. Youtube linki açılması için kullanılan metoda safe parametresi eklenerek canOpenUrl sorgusu yapıp yapılmadan urlnin açılma alternatifleri sağlanmıştır (canOpenUrl kullanımında hata ile karşılaşıldığı için)
 
 ## Kullanılan yapılar: 
 - LottiView ile loading/error animasyonu
